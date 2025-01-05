@@ -1,0 +1,133 @@
+echo "# Own-Growth11" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JourneyofGrowth/Own-Growth11.git
+git push -u origin main
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unlock the Mindset of the Unstoppable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #dffdde;
+      color: #0a6a2f;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #dffdde;
+      color: #0a6a2f;
+      text-align: center;
+      padding: 20px 5px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #0a6a2f;
+    }
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      color: #0a6a2f;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    h2 {
+      color: #0a6a2f;
+    }
+    .question {
+      margin: 15px 0;
+      padding: 15px;
+      background: #f9f9ff;
+      border-left: 4px solid #0a6a2f;
+    }
+    .step {
+      margin: 10px 0;
+      padding: 10px;
+      background: #e9f7ff;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      margin: 20px 0;
+      color: #666;
+    }
+    button {
+      background-color: #0a6a2f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #5b54e5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Unlock the Mindset of the Unstoppable</h1>
+  </header>
+  <div class="container">
+    <h2>Why Only 5% Succeed</h2>
+    <p>Most people dream of success, but only a small percentage turn those dreams into reality. Here’s why:</p>
+    <div class="question">
+      <strong>1. Lack of Clarity:</strong> Without clear goals, it's impossible to focus your energy.<br>
+      <em>Question: Do you have a clear vision of what you want to achieve?</em>
+    </div>
+    <div class="question">
+      <strong>2. Fear of Failure:</strong> Fear paralyzes most people. The 5% embrace failure as a learning opportunity.<br>
+      <em>Question: Are you afraid of failing, so you don’t even try?</em>
+    </div>
+    <div class="question">
+      <strong>3. No Consistency:</strong> Success isn’t about big actions; it’s about small, consistent efforts over time.<br>
+      <em>Question: Do you give up when results don’t come quickly?</em>
+    </div>
+    <div class="question">
+      <strong>4. Fixed Mindset:</strong> Many think they’re not "good enough." The 5% believe they can improve with effort.<br>
+      <em>Question: Do you believe your abilities are fixed and unchangeable?</em>
+    </div>
+    <div class="question">
+      <strong>5. Lack of Gratitude:</strong> Gratitude keeps you motivated. The 5% celebrate every small win.<br>
+      <em>Question: Do you focus only on what you don’t have?</em>
+    </div>
+
+    <h2>Your 5-Step Plan to Join the 5%</h2>
+    <div class="step">1. Define Your Vision: Write down your biggest goal and how achieving it will change your life.</div>
+    <div class="step">2. Face Your Fears: Identify one fear holding you back and take a small action to overcome it today.</div>
+    <div class="step">3. Build Small Habits: Choose a habit that supports your goal and practice it daily for 21 days.</div>
+    <div class="step">4. Embrace Challenges: Reflect on a recent setback, what it taught you, and how it made you stronger.</div>
+    <div class="step">5. Practice Gratitude: List three things you’re grateful for every morning for a week.</div>
+
+    <h2>Your Challenge</h2>
+    <p>Ready to transform your mindset? Answer these questions:</p>
+    <ol>
+      <li>What is your biggest goal right now?</li>
+      <li>What’s one fear holding you back?</li>
+      <li>What’s one small action you can take today to move forward?</li>
+    </ol>
+
+    <button onclick="startChallenge()">Start Now</button>
+  </div>
+  <footer>
+    <p>&copy; 2025 Your Motivational Page</p>
+  </footer>
+
+  <script>
+    function startChallenge() {
+      alert("Congratulations! Your journey to success begins now. Take the first step today.");
+    }
+  </script>
+</body>
+</html>
